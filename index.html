@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário | Cosméticos</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Pesquisa sobre Cosméticos</h1>
+        
+        <form action="#" method="post">
+            <h2>1. Informações Pessoais:</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="nome">Idade:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="idade">Número de telefone:</label>
+            <input type="number" id="idade" name="idade" required>
+
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+
+            <h2>2. Você usa cosméticos?</h2>
+            <label>
+                <input type="radio" name="usa_cosmeticos" value="sim" required> Sim
+            </label>
+            <label>
+                <input type="radio" name="usa_cosmeticos" value="nao"> Não
+            </label>
+
+            <h2>3. Se sim, com que frequência você usa cosméticos?</h2>
+            <label>
+                <input type="radio" name="frequencia" value="diariamente"> Diariamente
+            </label>
+            <label>
+                <input type="radio" name="frequencia" value="algumas_vezes"> Algumas vezes por semana
+            </label>
+            <label>
+                <input type="radio" name="frequencia" value="raramente"> Raramente
+            </label>
+            <label>
+                <input type="radio" name="frequencia" value="ocasioes_especiais"> Somente em ocasiões especiais
+            </label>
+
+            <h2>4. Quais tipos de cosméticos você usa? (Marque todos que se aplicam)</h2>
+            <label>
+                <input type="checkbox" name="tipos_cosmeticos" value="base"> Base
+            </label>
+            <label>
+                <input type="checkbox" name="tipos_cosmeticos" value="po_facial"> Pó facial
+            </label>
+            <label>
+                <input type="checkbox" name="tipos_cosmeticos" value="blush"> Blush
+            </label>
+            <label>
+                <input type="checkbox" name="tipos_cosmeticos" value="sombra"> Sombra
+            </label>
+            <label>
+                <input type="checkbox" name="tipos_cosmeticos" value="lapis_olhos"> Lápis de olhos
+            </label>
+            <label>
+                <input type="checkbox" name="tipos_cosmeticos" value="mascara_cilios"> Máscara de cílios
+            </label>
+            <label>
+                <input type="checkbox" name="tipos_cosmeticos" value="batom"> Batom
+            </label>
+            <label>
+                <input type="checkbox" name="tipos_cosmeticos" value="hidratante"> Hidratante
+            </label>
+            <label>
+                <input type="checkbox" name="tipos_cosmeticos" value="protetor_solar"> Protetor solar
+            </label>
+            <label>
+                <input type="checkbox" name="tipos_cosmeticos" value="outros"> Outros: <input type="text" name="outros_cosmeticos">
+            </label>
+
+            <h2>5. Quais fatores você considera ao escolher um cosmético? (Marque todos que se aplicam)</h2>
+            <label>
+                <input type="checkbox" name="fatores" value="preco"> Preço
+            </label>
+            <label>
+                <input type="checkbox" name="fatores" value="marca"> Marca
+            </label>
+            <label>
+                <input type="checkbox" name="fatores" value="ingredientes"> Ingredientes
+            </label>
+            <label>
+                <input type="checkbox" name="fatores" value="avaliacoes"> Avaliações/recomendações
+            </label>
+            <label>
+                <input type="checkbox" name="fatores" value="embalagem"> Embalagem
+            </label>
+            <label>
+                <input type="checkbox" name="fatores" value="vegan"> Vegan/Crueza
+            </label>
+            <label>
+                <input type="checkbox" name="fatores" value="outros_fatores"> Outros: <input type="text" name="outros_fatores">
+            </label>
+
+            <h2>6. Você já teve alguma reação alérgica ou sensibilidade a um produto cosmético?</h2>
+            <label>
+                <input type="radio" name="reacao" value="sim"> Sim
+            </label>
+            <label>
+                <input type="radio" name="reacao" value="nao"> Não
+            </label>
+
+            <h2>7. Qual a sua faixa de preço preferida para cosméticos?</h2>
+            <label>
+                <input type="radio" name="faixa_preco" value="abaixo_50"> Abaixo de R$50
+            </label>
+            <label>
+                <input type="radio" name="faixa_preco" value="50_150"> R$50 - R$150
+            </label>
+            <label>
+                <input type="radio" name="faixa_preco" value="150_300"> R$150 - R$300
+            </label>
+            <label>
+                <input type="radio" name="faixa_preco" value="acima_300"> Acima de R$300
+            </label>
+
+            <h2>8. Onde você costuma comprar seus cosméticos?</h2>
+            <label>
+                <input type="checkbox" name="compras" value="lojas_fisicas"> Lojas físicas
+            </label>
+            <label>
+                <input type="checkbox" name="compras" value="online"> Online
+            </label>
+            <label>
+                <input type="checkbox" name="compras" value="farmacias"> Farmácias
+            </label>
+            <label>
+                <input type="checkbox" name="compras" value="supermercados"> Supermercados
+            </label>
+            <label>
+                <input type="checkbox" name="compras" value="outros_compras"> Outros: <input type="text" name="outros_compras">
+            </label>
+
+            <h2>9. Você acompanha as tendências de maquiagem e cosméticos?</h2>
+            <label>
+                <input type="radio" name="tendencias" value="sim"> Sim, sempre
+            </label>
+            <label>
+                <input type="radio" name="tendencias" value="as_vezes"> Às vezes
+            </label>
+            <label>
+                <input type="radio" name="tendencias" value="nao"> Não
+            </label>
+
+            <h2>10. Comentários adicionais ou sugestões:</h2>
+            <textarea name="comentarios" rows="4"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
